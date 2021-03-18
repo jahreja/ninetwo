@@ -93,6 +93,10 @@
     font-family: "Avenir Next";
 }
 
+.stadium {
+    padding-bottom: 1rem;
+}
+
 #info {
     border: 0.1rem solid #181818;
     border-radius: 2%;

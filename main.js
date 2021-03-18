@@ -46,7 +46,7 @@ function setTeam(){
                 <h1 id="team">${response.teams[0].strTeam}</h1>
                 <div class="typewriter"><h3 id="year">Est. ${response.teams[0].intFormedYear}</h3></div>
                 <img id="badge" src=${response.teams[0].strTeamBadge}>
-                <div class="typewriter"><h3 id="year">Stadium: <span id="ground">${response.teams[0].strStadium}</span></h3></div>
+                <div class="typewriter"><h3 id="year" class="stadium">Stadium: <span id="ground">${response.teams[0].strStadium}</span></h3></div>
                 <p id="info">${response.teams[0].strDescriptionEN}</p>
             </div>
           `
