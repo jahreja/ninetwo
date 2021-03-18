@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nine Two</title>
+</head>
+<body>
+
+    <div id="logodiv">
+        <img id="logo" src="ninetwo.png">
+    </div>
+
+    <div id="selects">
+        <select onchange={setLeague()} id="leagueSelect">
+            <option value="">Select a league</option>
+            <option value="4328">Premier League</option>
+            <option value="4329">Championship</option>
+            <option value="4396">League One</option>
+            <option value="4397">League Two</option>
+        </select>
+    
+        <select onchange={setTeam()} id="teamSelect"></select>
+    </div>
+
+    <div id="clubname">
+
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
